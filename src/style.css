@@ -67,3 +67,79 @@ body {
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
+/* Part 1 of C1 achieved - desktop view */
+
+.light-box {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+  /* C2: side-by-side view on desktop */
+  .layout-wrapper{
+    display: flex;
+    gap: 20px;
+  }
+
+  .main-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+
+  /* styling for tablets */
+  @media screen and (max-width: 991px) {
+    .light-box {
+      background-color: yellow;
+      color: blue
+    }
+  }
+  
+  /* styling for mobile */
+  @media screen and (max-width: 786px) {
+    /* C1 styling for mobile */
+    .light-box {
+      background-color: rgb(8, 73, 8);
+      color: white;
+    }
+  }
+
+  /* C2: styling for mobile */ 
+  .layout-wrapper {
+    flex-direction: column;
+  }
+
+    .hamburger-icon {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+      background-color: #3498db;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      padding: 10px 0px;
+      width: 200%;
+    }
+
+    .nav-links li {
+      margin: 10px 0px;
+    }
+
+    .menu-container:hover .nav-links {
+      display: flex;
+      flex-direction: column;
+
+      
+    }
+  
+  
+
+
+    
+
