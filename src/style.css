@@ -84,10 +84,18 @@ Do not delete any of the above code. */
   }
 
   .main-content {
-    background-color: #ecf0f1;
+    background-color: #3498db;
     padding: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    color: #f5f6fa;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 8px;
+  }
+
+  .sidebar {
+    background-color: cadetblue;
+    padding: 20px;
+    color: #f5f6fa;
+    text-shadow: 2px 2px 5px black;
     border-radius: 8px;
   }
 
@@ -106,9 +114,8 @@ Do not delete any of the above code. */
       background-color: rgb(8, 73, 8);
       color: white;
     }
-  }
 
-  /* C2: styling for mobile */ 
+    /* C2: styling for mobile */ 
   .layout-wrapper {
     flex-direction: column;
   }
@@ -119,7 +126,7 @@ Do not delete any of the above code. */
 
     .nav-links {
       display: none;
-      background-color: #3498db;
+      background-color: #34495e;
       position: absolute;
       top: 100%;
       right: 0;
@@ -137,6 +144,10 @@ Do not delete any of the above code. */
 
       
     }
+
+
+  }
+
   
   
 
